@@ -1,0 +1,36 @@
+/* FILE: src/styles/Home.css */
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("../assets/background.jpg"); 
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .welcome-text {
+    color: rgb(189, 7, 180);
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .explore-btn {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff69b4;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .explore-btn:hover {
+    background-color: #d14794;
+  }
+  

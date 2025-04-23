@@ -1,0 +1,13 @@
+/* FILE: src/styles/Footer.css */
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #1b284d;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+  }
+  

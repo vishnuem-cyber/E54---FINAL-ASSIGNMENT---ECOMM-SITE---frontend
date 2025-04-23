@@ -1,0 +1,55 @@
+/* FILE: src/styles/CartPreview.css */
+
+.cart-preview {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    width: 250px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    z-index: 100;
+  }
+  
+  .cart-preview h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .cart-preview ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .cart-preview li {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .cart-preview p {
+    font-size: 1rem;
+    margin: 5px 0;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .cart-preview button {
+    width: 100%;
+    padding: 8px;
+    background: #2196f3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .cart-preview button:hover {
+    background: #1976d2;
+  }
+  
