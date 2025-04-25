@@ -38,7 +38,7 @@ export const AuthProvider = ({ children }) => {
   //  Login function
   const login = async (email, password) => {
     try {
-      const response = await axios.post('http://localhost:4000/auth/login', {
+      const response = await axios.post('https://e54-final-assignment-ecomm-site-with.onrender.com/auth/login', { // Updated URL
         email,
         password
       });
@@ -63,7 +63,7 @@ export const AuthProvider = ({ children }) => {
 //  Signup function
 const signup = async (name, email, password) => {
   try {
-    const response = await axios.post('http://localhost:4000/auth/signup', {
+    const response = await axios.post('https://e54-final-assignment-ecomm-site-with.onrender.com/auth/signup', { // Fixed URL
       name,
       email,
       password
