@@ -10,7 +10,7 @@ function Products() {
 
   useEffect(() => {
     axios
-      .get("https://fakestoreapi.com/products")
+      .get("https://e54-final-assignment-ecomm-site-with.onrender.com/products")
       .then((response) => setProducts(response.data))
       .catch((error) => console.error("Error fetching products:", error));
   }, []);
